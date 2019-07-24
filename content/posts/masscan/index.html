@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Nmap</title>
+		<title>masscan</title>
 		<meta name="viewport" content="width=device-width">
 		
 		<link rel="stylesheet" href="https://iwroot.github.io/css/hybrid.css">
@@ -48,13 +48,27 @@
 			<div id="content">
 				
 	<article class="post">
-		<h1><a href="https://iwroot.github.io/content/posts/nmap/">Nmap</a> </h1>
+		<h1><a href="https://iwroot.github.io/content/posts/masscan/">masscan</a> </h1>
 
 		<div class="post-content">
 
-<h1 id="nmap">nmap</h1>
+<h1 id="masscan">masscan</h1>
 
-<p><img src="nmap.assets/1562920574019.png" alt="1562920574019" /></p>
+<p>号称扫遍全网6分钟，为扫遍全球IP而生，zmap单端口扫描，nmap 准确率、脚本。</p>
+
+<h2 id="usage">usage</h2>
+
+<p>masscan <ip addresses/ranges> -p ports options</p>
+
+<p>masscan 192.168.81.129 -p 80,22-25</p>
+
+<p>网段/IP:支持ip、IP区间、CIDR格式</p>
+
+<p>-p 指定端口支持-p 80,22-25区间和单个端口方法</p>
+
+<p>options:    时间-超时和速率、欺骗-IP和MAC、输出－格式和指定文件等</p>
+
+<p><img src="masscan.assets/1560825196311.png" alt="1560825196311" /></p>
 </div>
 
 		<p class="meta">Posted on <span class="postdate">12. July 2019</span></p>

@@ -12,12 +12,17 @@
     
     
     <item>
-      <title>Nmap</title>
-      <link>https://iwroot.github.io/content/posts/nmap/</link>
+      <title>masscan</title>
+      <link>https://iwroot.github.io/content/posts/masscan/</link>
       <pubDate>Fri, 12 Jul 2019 16:35:21 +0800</pubDate>
       
-      <guid>https://iwroot.github.io/content/posts/nmap/</guid>
-      <description> nmap </description>
+      <guid>https://iwroot.github.io/content/posts/masscan/</guid>
+      <description>masscan 号称扫遍全网6分钟，为扫遍全球IP而生，zmap单端口扫描，nmap 准确率、脚本。
+usage masscan -p ports options
+masscan 192.168.81.129 -p 80,22-25
+网段/IP:支持ip、IP区间、CIDR格式
+-p 指定端口支持-p 80,22-25区间和单个端口方法
+options: 时间-超时和速率、欺骗-IP和MAC、输出－格式和指定文件等</description>
     </item>
     
   </channel>
